@@ -1,0 +1,26 @@
+$ColorRed: red;
+$ColorBlue: blue;
+
+%content {
+    font-family: sans-serif;
+    font-size: 18pt;
+    font-weight: bold;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+}
+
+body {
+    font-size: 14pt;
+    color: $ColorRed;
+}
+
+ul {
+    font-size: 20pt;
+    color: $ColorBlue;
+}
+
+#id content {
+    font-size: 14pt;
+    color: $ColorRed;
+}
