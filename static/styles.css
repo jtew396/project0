@@ -1,3 +1,5 @@
+
+
 body {
   font-size: 14pt;
   color: red;
@@ -6,6 +8,15 @@ body {
 ul {
   font-size: 20pt;
   color: blue;
+}
+
+#id content {
+  font-size: 14pt;
+  color: red;
+}
+
+.container {
+  display: flex;
 }
 
 /*# sourceMappingURL=styles.css.map */

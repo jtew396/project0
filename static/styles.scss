@@ -1,5 +1,7 @@
 $ColorRed: red;
 $ColorBlue: blue;
+$break-small: 320px;
+$break-large: 1200px;
 
 %content {
     font-family: sans-serif;
@@ -23,4 +25,15 @@ ul {
 #id content {
     font-size: 14pt;
     color: $ColorRed;
+}
+
+.container{
+    display: flex;
+    @media all and (min-width: $break-small){
+        width: 100px;
+        float: none;
+    }
+    @media all and (max-width: $break-large){
+        float: right;
+    }
 }
