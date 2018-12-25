@@ -1,11 +1,6 @@
-$ColorRed: red;
-$ColorBlue: blue;
-$break-small: 320px;
-$break-large: 1200px;
-
 %content {
     font-family: sans-serif;
-    font-size: 18pt;
+    font-size: 14pt;
     font-weight: bold;
     border: 1px solid black;
     padding: 20px;
@@ -14,26 +9,12 @@ $break-large: 1200px;
 
 body {
     font-size: 14pt;
-    color: $ColorRed;
 }
 
 ul {
     font-size: 20pt;
-    color: $ColorBlue;
 }
 
 #id content {
     font-size: 14pt;
-    color: $ColorRed;
-}
-
-.container{
-    display: flex;
-    @media all and (min-width: $break-small){
-        width: 100px;
-        float: none;
-    }
-    @media all and (max-width: $break-large){
-        float: right;
-    }
 }
