@@ -1,24 +1,37 @@
 body {
   font-size: 14pt;
-  color: red;
 }
 
 ul {
   font-size: 20pt;
-  color: blue;
 }
 
-#id content {
+#content {
   font-size: 14pt;
-  color: red;
 }
 
-.container {
-  display: flex;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
 }
 
-.navbar {
-    display: flex;
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
 }
 
 /*# sourceMappingURL=styles.css.map */
