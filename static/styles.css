@@ -12,11 +12,8 @@ body {
   font-size: 14pt;
 }
 
-ul {
-  font-size: 20pt;
-}
-
-ul {
+#navbar {
+  font-size: 22pt;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -28,7 +25,7 @@ li {
   float: left;
 }
 
-li a {
+#navbarlist {
   display: block;
   color: white;
   text-align: center;

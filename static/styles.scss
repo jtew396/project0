@@ -1,6 +1,7 @@
 $standard-font: Arial;
 $standard-color: #333;
 $standard-font-size: 14pt;
+$large-font-size: 22pt;
 
 %content {
     font: $standard-font;
@@ -16,10 +17,6 @@ body {
     font-size: $standard-font-size;
 }
 
-ul {
-    font-size: 20pt;
-}
-
 #content {
     @extend %content;
 }
@@ -28,19 +25,20 @@ ul {
     @extend %content;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: $standard-color;
+#navbar {
+    font-size: $large-font-size;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $standard-color;
 }
 
 li {
   float: left;
 }
 
-li a {
+#navbarlist {
   display: block;
   color: white;
   text-align: center;
@@ -48,7 +46,7 @@ li a {
   text-decoration: none;
 }
 
-li a:hover {
+#navbarlist:hover {
   background-color: #111;
 }
 
