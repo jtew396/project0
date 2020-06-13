@@ -33,7 +33,7 @@ li {
   text-decoration: none;
 }
 
-li a:hover {
+#navbarlist:hover {
   background-color: #111;
 }
 
@@ -41,6 +41,11 @@ li a:hover {
   body {
     background-color: lightblue;
   }
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: scale-down;
 }
 
 /*# sourceMappingURL=styles.css.map */
